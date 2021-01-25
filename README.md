@@ -4,8 +4,6 @@ In this coursework you will be working on writing code that will solve Sudoku pu
 
 To avoid setting a deadline for this work during reading week, and so everyone has a lab session before the deadline, both parts of this assignment are due in on *Thursday the 9th of November at 11pm*.
 
-As with the previous two assignments, part (d) is advanced and worth 3 marks; parts (a) to (c) add up to 7 marks.
-
 For the avoidance of doubt -- you may add extra `#include` and `using` statements this week, if you need to.
 
 # a) Making a Sudoku board class
