@@ -36,13 +36,13 @@ If at any point the set of values for a square becomes empty, the function retur
 
 This process stops when, having looped over the board, and updated the sets by removing values, our sets have stopped getting any smaller.  At this point the function returns true.
 
-For simple Sudodu puzzles, this process here is enough to solve the puzzle.  No guesswork is needed: setting the squares of the board to hold the initial values specified in the puzzle is enough to cause all the other squares of the board to have only one option left.
-
 ## Usage
 
 You can test this by compiling and running BasicSudoku.cpp.
 
 This calls `setSquare` for the values in a simple Sudoku puzzle; then uses `getSquare` to check the code has the right answer.  
+
+For simple Sudodu puzzles, this process here is enough to solve the puzzle.  No guesswork is needed: setting the squares of the board to hold the initial values specified in the puzzle is enough to cause all the other squares of the board to have only one option left.
 
 # Searching for a solution
 
